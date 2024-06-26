@@ -102,6 +102,16 @@ const handleClick = (e) => {
     font-size: 40px;
 }
 
+.key:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.key.phone:hover {
+    background-color: rgba(92, 219, 116, 0.75);
+    transition: background-color 0.3s ease-in-out;
+}
+
 .clear {
     clear: both;
 }
